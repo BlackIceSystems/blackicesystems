@@ -14,25 +14,18 @@ people:
   position: Principal Consultant
   social:
     - title: linkedin
-      url: #https://au.linkedin.com/in/mattcgoode
+      url: https://au.linkedin.com/in/mattcgoode
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/company/black-ice-systems
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Suite 5, 1 Brewer Street
+  - line: Perth, Western Australia, 6000
 
 # Build settings
 markdown: kramdown
