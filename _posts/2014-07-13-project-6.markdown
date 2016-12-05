@@ -3,8 +3,8 @@ title: Professional
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: image1.png
+thumbnail: image1.png
 alt: image-alt
 description: At Black Ice Systems we pride ourselves on professional project delivery. Our own engineering systems and processes are built in line with the requirements of AS61508, the "parent" functional safety standard, which allows us to deliver professional high value results for our customers.
 
