@@ -6,23 +6,31 @@
                     <h2 class="section-heading">Why Choose Black Ice Systems</h2>
                 </div>
             </div>
-            <div class="row">
-            {% for post in site.posts %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Risk Management</h4>
+                    <p class="text-muted">We pride ourselves on leading the pack in risk management techniques and application. Our team has a strong background in mining and materials handling which gives us insight into the challenges encountered on large and small projects.</p>
                 </div>
-            {% endfor %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Functional Safety</h4>
+                    <p class="text-muted">Functional safety can be a complicated field. Black Ice Systems can help you tackle the challenge of achieving functional safety compliance. Whether it is tailoring a full lifecycle for your business, or assistance with specific tasks on a single project. Working with Black Ice Systems you will achieve a quality cost effective outcome, in line with standards and regulatory requirements.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Training</h4>
+                    <p class="text-muted">Implementing functional safety and safety-by-design requires all members of your team to have appropriate skills, knowledge, and experience. Black Ice Systems provides tailored training for all levels of staff including engineers, managers, and maintainers - to ensure your team can work safely and effectively.</p>
+                </div>
             </div>
         </div>
     </section>
