@@ -3,13 +3,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Meet Our Team</h2>
-                    <h3 class="section-subheading text-muted">Meet the people behind Black Ice Systems.</h3>
+                    <h2 class="section-heading">Meet The Team</h2>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row">
                 {% for member in site.people %}
-                <div class="col-sm-3">
+                <div class="col-sm-4 col-sm-offset-4 text-center">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
@@ -30,7 +29,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Our company is built on the strength of skills and knowledge that we bring to every job we do.</p>
+                    <p class="large text-muted">Black Ice Systems is built on the skills and knowledge of our team.</p>
                 </div>
             </div>
         </div>
