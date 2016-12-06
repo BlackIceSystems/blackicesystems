@@ -729,6 +729,10 @@ section#services .section-heading {
     color: #fff;
 }
 
+section#services .service-heading {
+    color: #fff;
+}
+
 section#services .text-muted {
     color: #ddd;
 }
