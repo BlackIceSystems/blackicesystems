@@ -737,6 +737,10 @@ section#services .text-muted {
     color: #ddd;
 }
 
+section#why .text-muted {
+    color: #777;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;

@@ -3,7 +3,7 @@ color:
   primary: 00aeef
   secondary: 0090ef  
   secondary-dark: 333
-  muted: 777777
+  muted: 777
 
 # Font Families
 font:
