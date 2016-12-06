@@ -667,6 +667,10 @@ section#contact .section-heading {
     color: #fff;
 }
 
+section#contact .text-muted {
+    color: #ddd;
+}
+
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -719,6 +723,14 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+section#services .section-heading {
+    color: #fff;
+}
+
+section#services .text-muted {
+    color: #ddd;
 }
 
 footer {
