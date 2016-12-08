@@ -19,10 +19,7 @@ body {
 }
 
 
-.fa-stack:hover  .fa.fa-certificate { color: #3B5998; }
-.fa-stack:hover  .fa.fa-twitter-square { color: #55ACEE; }
-.fa-stack:hover  .fa.fa-rss-square { color: #F79238; }
-
+.fa-stack:hover  .fa.fa-circle { color: #3B5998; }
 
 p {
     font-size: 14px;
