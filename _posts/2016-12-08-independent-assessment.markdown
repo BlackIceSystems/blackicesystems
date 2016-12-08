@@ -1,6 +1,6 @@
 ---
 title: Independent Assessment
-subtitle: stuf
+subtitle: Functional
 layout: default
 modal-id: 3
 icon: fa-check-square
