@@ -21,7 +21,10 @@ body {
 
 .hoverlinks .fa-stack:hover  .fa.fa-circle { 
 color: #{{ site.data.template.color.secondary }}; 
-    -webkit-animation: pulsate 3s ease-out;
+}
+
+.hoverlinks .fa-stack .fa.fa-circle {
+	-webkit-animation: pulsate 3s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.5;
 }
