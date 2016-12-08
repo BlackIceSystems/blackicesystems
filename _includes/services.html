@@ -7,9 +7,14 @@
                     <h3 class="section-subheading text-muted">Click on a service to find out how Black Ice Systems can help your business achieve safety success</h3>
                 </div>
             </div>
-            <div class="row text-center">
-            {% for post in site.posts %}
-                <div class="col-md-4">
+            
+			{% for post in site.posts %}
+				{% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+			    {% if modulo == '0' or forloop.first %}
+					<div class="row text-center">
+				{% endif %}
+
+				<div class="col-md-4">
                     <a href="#servicesModal{{ post.modal-id }}" data-toggle="modal">
 						<span class="fa-stack fa-4x">
 							<i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -20,6 +25,14 @@
                         <h4 class="service-heading">{{ post.title }}</h4>
                     </div>
                 </div>
+			  
+				{% if modulo == '2' or forloop.last %}
+					</div>
+				{% endif %}
+			{% endfor %}
+			
+            {% for post in site.posts %}
+
             {% endfor %}
             </div>
         </div>
