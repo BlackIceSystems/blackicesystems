@@ -9,7 +9,7 @@
             </div>
             
 			{% for post in site.posts %}
-				{% capture mod %}{{ forloop.index0 | mod:2 }}{% endcapture %}
+				{% assign mod = forloop.index0 | modulo: 2 %}
 				
 			    {% if mod == '0' %}
 					<div class="row text-center">
