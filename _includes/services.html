@@ -7,23 +7,23 @@
                     <h3 class="section-subheading text-muted">Click on a service to find out how Black Ice Systems can help your business achieve safety success</h3>
                 </div>
             </div>
-
+			  
 			<div class="row text-center">
 
-				{% for p in posts %}
-					<div class="col-md-4">
-						<a href="#servicesModal{{ post.modal-id }}" data-toggle="modal">
-							<span class="fa-stack fa-4x">
-								<i class="fa fa-circle fa-stack-2x text-primary"></i>
-								<i class="fa {{ post.icon }} fa-stack-1x fa-inverse"></i>
-							</span>
-						</a>
-						<div class="portfolio-caption">
-							<h4 class="service-heading">{{ post.title }}sss</h4>
-						</div>
-					</div>
+				{% for post in site.posts %}
+				<div class="col-md-4">
+                    <a href="#servicesModal{{ post.modal-id }}" data-toggle="modal">
+						<span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa {{ post.icon }} fa-stack-1x fa-inverse"></i>
+						</span>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="service-heading">{{ post.title }}aaa</h4>
+                    </div>
+                </div>
 					{% unless forloop.last %}
-						{% cycle '', '', '</div><div class="row text-center">' %}
+						{% cycle '', '', '</div><div class="row">' %}
 					{% endunless %}
 				{% endfor %}
 
