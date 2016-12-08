@@ -9,7 +9,8 @@
             </div>
             
 			{% for post in site.posts %}
-				{% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+				{% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
+				
 			    {% if modulo == '0' or forloop.first %}
 					<div class="row text-center">
 				{% endif %}
@@ -30,10 +31,6 @@
 					</div>
 				{% endif %}
 			{% endfor %}
-			
-            {% for post in site.posts %}
-
-            {% endfor %}
             </div>
         </div>
     </section>
