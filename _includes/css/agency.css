@@ -19,7 +19,7 @@ body {
 }
 
 
-.hoverlinks .fa-stack:hover  .fa.fa-circle { color: #FDB927; }
+.hoverlinks .fa-stack:hover  .fa.fa-circle { color: #{{ site.data.template.color.secondary }}; }
 
 p {
     font-size: 14px;
