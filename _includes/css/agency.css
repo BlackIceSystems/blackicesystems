@@ -18,6 +18,12 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+
+.fa-stack:hover  .fa.fa-certificate { color: #3B5998; }
+.fa-stack:hover  .fa.fa-twitter-square { color: #55ACEE; }
+.fa-stack:hover  .fa.fa-rss-square { color: #F79238; }
+
+
 p {
     font-size: 14px;
     line-height: 1.75;
