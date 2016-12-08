@@ -19,7 +19,7 @@ body {
 }
 
 
-.services.fa-stack:hover  .fa.fa-circle { color: #3B5998; }
+.services .fa-stack:hover  .fa.fa-circle { color: #3B5998; }
 
 p {
     font-size: 14px;
