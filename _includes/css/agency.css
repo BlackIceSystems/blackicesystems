@@ -832,6 +832,8 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+.top-buffer { margin-top:20px; }
+
 .services-modal .close-modal {
     position: absolute;
     top: 25px;
