@@ -18,10 +18,12 @@
 							</span>
 						</a>
 						<div class="portfolio-caption">
-							<h4 class="service-heading">{{ post.title }}zzz</h4>
+							<h4 class="service-heading">{{ post.title }}sss</h4>
 						</div>
 					</div>
-
+					{% unless forloop.last %}
+						{% cycle '', '', '</div><div class="row text-center">' %}
+					{% endunless %}
 				{% endfor %}
 
 			</div>
