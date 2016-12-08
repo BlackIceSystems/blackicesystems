@@ -7,14 +7,14 @@
                     <h3 class="section-subheading text-muted">Click on a service to find out how Black Ice Systems can help your business achieve safety success</h3>
                 </div>
             </div>
-            {% assign mod = 0 %}
+            {% assign test = 0 %}
 			
 			{% for post in site.posts %}
-			    {% if mod == '0' %}
+			    {% if test == 0 %}
 					<div class="row text-center">
 				{% endif %}
 
-				{% assign mod = mod + 1 %}
+				{% assign test = test + 1 %}
 				
 				<div class="col-md-4">
                     <a href="#servicesModal{{ post.modal-id }}" data-toggle="modal">
@@ -28,9 +28,9 @@
                     </div>
                 </div>
 			  
-				{% if mod == '3' %}
+				{% if test == 3 %}
 					</div>
-					{% assign mod = 0 %}
+					{% assign test = 0 %}
 				{% endif %}
 			{% endfor %}
         </div>
