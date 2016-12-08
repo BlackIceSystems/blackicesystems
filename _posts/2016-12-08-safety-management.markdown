@@ -1,6 +1,5 @@
 ---
 title: Safety Management
-subtitle: stuf
 layout: default
 modal-id: 2
 icon: fa-life-ring

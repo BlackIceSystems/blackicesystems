@@ -1,6 +1,5 @@
 ---
 title: Lifecycle Activities
-subtitle: Find out how we can help you perform lifecycle activities
 layout: default
 modal-id: 6
 icon: fa-certificate
