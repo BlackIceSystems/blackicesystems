@@ -7,14 +7,15 @@
                     <h3 class="section-subheading text-muted">Click on a service to find out how Black Ice Systems can help your business achieve safety success</h3>
                 </div>
             </div>
-            
+            {% assign mod = 0 %}
+			
 			{% for post in site.posts %}
-				{% assign mod = forloop.index0 | modulo:2 %}
-				
 			    {% if mod == '0' %}
 					<div class="row text-center">
 				{% endif %}
 
+				{% assign mod = mod + 1 %}
+				
 				<div class="col-md-4">
                     <a href="#servicesModal{{ post.modal-id }}" data-toggle="modal">
 						<span class="fa-stack fa-4x">
@@ -27,8 +28,9 @@
                     </div>
                 </div>
 			  
-				{% if mod == '1' %}
+				{% if mod == '3' %}
 					</div>
+					{% assign mod = 0 %}
 				{% endif %}
 			{% endfor %}
         </div>
