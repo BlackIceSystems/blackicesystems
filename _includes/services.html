@@ -7,7 +7,7 @@
                     <h3 class="section-subheading text-muted">Click on the icons to find out more about out services, and how Black Ice Systems can help your business achieve safety success</h3>
                 </div>
             </div>
-			<div class="row text-center">
+<!--			<div class="row text-center">
 
 				{% for post in site.posts %}
 					<div class="col-md-4">
@@ -27,7 +27,29 @@
 					{% endunless %}
 				{% endfor %}
 
-			</div>
+			</div>-->
+			
+			<div class="row">
+				{% for post in site.posts %}
+                <div class="col-md-4 col-sm-6 services-item">
+                    <a href="#servicesModal{{ post.modal-id }}" class="services-link" data-toggle="modal">
+						<span class="fa-stack fa-4x">
+							<i class="fa fa-circle fa-stack-2x" style="-webkit-text-shadow: 1px 1px 5px #000; text-shadow: 1px 1px 5px #000;"></i>
+							<i class="fa {{ post.icon }} fa-stack-1x fa-inverse"></i>
+						</span>
+                        <div class="services-hover">
+                            <div class="services-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="services-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+				{% endfor %}
+            </div>
 
         </div>
     </section>
