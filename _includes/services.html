@@ -44,8 +44,8 @@
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
 						<br>
-						<a href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn btn-sm btn-primary" data-toggle="collapse">Details</a>
-						<div class="collapse" id="collapseExample">
+						<a href="#collapse{{ post.modal-id }}" aria-expanded="false" aria-controls="collapseExample" class="btn btn-sm btn-primary" data-toggle="collapse">Details</a>
+						<div class="collapse" id="collapse{{ post.modal-id }}">
 						  <div class="card card-block">
 							{{ post.description }}
 						  </div>
