@@ -32,21 +32,24 @@
 			<div class="row">
 				{% for post in site.posts %}
                 <div class="col-md-4 col-sm-6 services-item">
-                    <a href="#servicesModal{{ post.modal-id }}" class="services-link" data-toggle="modal">
-						<div class="service-background text-center">
-							<span class="fa-stack fa-4x">
-								<i class="fa {{ post.icon }} fa-stack-1x fa-inverse"></i>
-							</span>
-							<!--<div class="services-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>-->
-						</div>
-                    </a>
+					<div class="service-background text-center">
+						<span class="fa-stack fa-4x">
+							<i class="fa {{ post.icon }} fa-stack-1x fa-inverse"></i>
+						</span>
+						<!--<div class="services-hover-content">
+							<i class="fa fa-plus fa-3x"></i>
+						</div>-->
+					</div>
                     <div class="services-caption">
                         <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.description }}</p>
+                        <p class="text-muted">{{ post.subtitle }}</p>
 						<br>
-						<a href="#servicesModal{{ post.modal-id }}" class="btn btn-sm btn-primary" data-toggle="modal">Details</a>
+						<a class="btn btn-sm btn-primary" data-toggle="collapse">Details</a>
+						<div class="collapse" id="collapseExample">
+						  <div class="card card-block">
+							{{ post.description }}
+						  </div>
+						</div>
                     </div>
                 </div>
 				{% endfor %}
