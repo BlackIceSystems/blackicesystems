@@ -251,12 +251,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-@media(min-width:768px) and (max-width:992px){
-	.col-sm-6 {
-		width: 100%;
-	}
-}
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
