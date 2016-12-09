@@ -633,11 +633,6 @@ section h3.section-subheading {
     }
 }
 
-@media (min-width: 992px) and (max-width:1200px) {
-	.col-md-4 {
-		width: 50%;
-	}
-}
 
 
 @media(min-width:1200px) {
