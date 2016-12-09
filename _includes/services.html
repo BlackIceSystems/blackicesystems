@@ -52,6 +52,9 @@
 						</div>
                     </div>
                 </div>
+					{% unless forloop.last %}
+						{% cycle '', '', '</div><div class="row text-center">' %}
+					{% endunless %}
 				{% endfor %}
             </div>
 
