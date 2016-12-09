@@ -19,7 +19,7 @@ body {
 }
 
 
-.about .fa-stack .fa.fa-circle {
+#about .fa-stack .fa.fa-circle {
 	color: #{{ site.data.template.color.primary }};
 }
 
