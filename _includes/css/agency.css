@@ -19,14 +19,8 @@ body {
 }
 
 
-.hoverlinks .fa-stack:hover  .fa.fa-circle { 
-color: #{{ site.data.template.color.secondary }}; 
-}
-
-.hoverlinks .fa-stack .fa.fa-circle {
-	-webkit-animation: pulsate 3s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.5;
+.about .fa-stack .fa.fa-circle {
+	color: #{{ site.data.template.color.primary }};
 }
 
 @-webkit-keyframes pulsate {
