@@ -379,7 +379,8 @@ section h3.section-subheading {
 
 .service-background{
 	height: 120px;
-	max-width: 360px;
+	width: 100%;
+	max-width: 400px;
 	background: #{{ site.data.template.color.primary }};
 }
 
