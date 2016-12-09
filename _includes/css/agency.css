@@ -253,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768){
 	.col-sm-6 {
-		min-width: 100%;
+		width: 100%;
 	}
 }
 
