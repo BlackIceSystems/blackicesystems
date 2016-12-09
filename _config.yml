@@ -1,5 +1,6 @@
-url: https://blackicesystems.github.io
-baseurl: https://blackicesystems.github.io
+url: https://blackicesystems.com
+baseurl: https://blackicesystems.com
+enforce_ssl: blackicesystems.com   # without any protocol
 
 # Site settings
 title: Black Ice Systems
