@@ -377,19 +377,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .services-item {
+#services .services-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .services-item .services-link {
+#services .services-item .services-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .services-item .services-link .services-hover {
+#services .services-item .services-link .services-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -401,11 +401,11 @@ section h3.section-subheading {
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-#portfolio .services-item .services-link .services-hover:hover {
+#services .services-item .services-link .services-hover:hover {
     opacity: 1;
 }
 
-#portfolio .services-item .services-link .services-hover .services-hover-content {
+#services .services-item .services-link .services-hover .services-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -416,16 +416,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#portfolio .services-item .services-link .services-hover .services-hover-content i {
+#services .services-item .services-link .services-hover .services-hover-content i {
     margin-top: -12px;
 }
 
-#portfolio .services-item .services-link .services-hover .services-hover-content h3,
-#portfolio .services-item .services-link .services-hover .services-hover-content h4 {
+#services .services-item .services-link .services-hover .services-hover-content h3,
+#services .services-item .services-link .services-hover .services-hover-content h4 {
     margin: 0;
 }
 
-#portfolio .services-item .services-caption {
+#services .services-item .services-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -433,24 +433,24 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .services-item .services-caption h4 {
+#services .services-item .services-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .services-item .services-caption p {
+#services .services-item .services-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
 }
 
-#portfolio * {
+#services * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .services-item {
+    #services .services-item {
         margin: 0 0 30px;
     }
 }
