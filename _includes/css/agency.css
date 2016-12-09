@@ -378,8 +378,8 @@ section h3.section-subheading {
 }
 
 .service-background{
-	height: 280px;
-	width: 400px;
+	height: 120px;
+	max-width: 360px;
 	background: #{{ site.data.template.color.primary }};
 }
 
