@@ -291,6 +291,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+	display: table;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
@@ -302,8 +303,8 @@ header {
 }
 
 header .intro-text {
-	top: 50%; left: 50%;
-    transform: translate(-50%,-50%);	
+	display: table-cell;
+    vertical-align: middle;
 }
 
 header .intro-text .intro-lead-in {
