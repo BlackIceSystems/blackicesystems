@@ -377,6 +377,12 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.service-background{
+	height: 280px;
+	width: 400px;
+	background: {{ site.data.template.color.primary }};
+}
+
 #services .services-item {
     right: 0;
     margin: 0 0 15px;
