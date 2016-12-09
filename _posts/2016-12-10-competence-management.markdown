@@ -1,6 +1,5 @@
 ---
 title: Competence Management
-subtitle: stuf
 layout: default
 modal-id: 4
 icon: fa-certificate
