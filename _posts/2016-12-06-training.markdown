@@ -3,6 +3,6 @@ title: Training
 layout: default
 modal-id: 5
 icon: fa-users
-description: Having a team with the required skills and knowledge to execute safety projects helps to avoid costly errors and delays, which can lead to deployment of unsafe systems. Carrying out effective training, at key early project stages, sets up both the project and team for success. Our suite of training courses are tailored for the functional safety teams working in mining and materials handling. Whether you are starting a new project, continuing an existing project, or in long term operations and maintenance, our training services can help your team to produce the best results.
+description: Having a team with the required skills and knowledge to execute safety projects is critical to achieving success and developing safe systems. Carrying out effective training, at key early project stages, sets up both the project and team for success. Our suite of training courses are tailored for the functional safety teams working in mining and materials handling, and will help you to avoid deployment of unsafe systems. Whether you are starting a new project, continuing an existing project, or in long term operations and maintenance, our training services can help your team to produce the best results.
 
 ---
